@@ -22,7 +22,7 @@ import {
   XMarkIcon,
 } from '@heroicons/react/24/outline'
 import { PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
-
+import logo from '../../assets/image/logo.png'
 const products = [
   { name: 'Analytics', description: 'Get a better understanding of your traffic', href: '#', icon: ChartPieIcon },
   { name: 'Engagement', description: 'Speak directly to your customers', href: '#', icon: CursorArrowRaysIcon },
@@ -41,22 +41,23 @@ export default function Navbar() {
   return (
     <header className="bg-white">
       <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
-        <div className="flex lg:flex-1">
+        <div className="flex p-6 lg:flex-1">
             <img
               alt=""
-              src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
+              src={logo}
               className="h-8 w-auto"
             />
          
         </div>
         <div className="flex lg:hidden">
+          
           <button
             type="button"
             onClick={() => setMobileMenuOpen(true)}
-            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+            className=" button -m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
           >
-            <p className="sr-only">Open main menu</p>
-            <Bars3Icon aria-hidden="true" className="size-6" />
+          
+            <Bars3Icon aria-hidden="true" className="size-6 font-bold" />
           </button>
         </div>
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
@@ -77,6 +78,7 @@ export default function Navbar() {
                     className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-gray-50"
                   >
                     <div className="flex size-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
+                      
                       <item.icon aria-hidden="true" className="size-6 text-gray-600 group-hover:text-indigo-600" />
                     </div>
                     <div className="flex-auto">
@@ -109,7 +111,7 @@ export default function Navbar() {
           <button className="button text-sm/6 font-semibold">Features</button>
           <button className="button text-sm/6 font-semibold">Features</button>
         </PopoverGroup>
-        <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+        <div className="hidden lg:flex lg:flex-1 gap-4 lg:justify-end">
           
         <button className="button text-sm/6 px-5 mx-4font-semibold">LOGIN<label aria-hidden="true">&rarr;</label></button>
        
@@ -118,22 +120,22 @@ export default function Navbar() {
       <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">
         <div className="fixed inset-0 z-10" />
         <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
-          <div className="flex items-center justify-between">
+          <div className="flex items-center gap-4 justify-between">
          
               
               <img
                 alt=""
-                src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
-                className="h-8 w-auto px-4"
+                src={logo}
+                className="h-8 w-auto "
               />
         
             <button
               type="button"
               onClick={() => setMobileMenuOpen(false)}
-              className="-m-2.5 rounded-md p-2.5 text-gray-700"
+              className="cbutton -m-2.5 rounded-md p-2.5 text-gray-700"
             >
               
-              <XMarkIcon aria-hidden="true" className="size-6" />
+              <XMarkIcon aria-hidden="true" className="size-6 font-bold" />
             </button>
           </div>
           <div className="mt-6 flow-root">
@@ -162,7 +164,7 @@ export default function Navbar() {
                 <button className="button text-sm/6 font-semibold">Features</button>
               </div>
               <div className="py-6">
-              <button className="button text-sm/6 font-semibold">Login</button>
+              <button className="button text-sm/6 font-semibold">LOGIN <b><label aria-hidden="true">&rarr;</label></b></button>
               
               </div>
             </div>
