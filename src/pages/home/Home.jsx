@@ -9,6 +9,9 @@ import About1 from '../about/About';
 import Head from '../../compounds/heading/Head';
 import Carousel from '../../compounds/multislider/MultiSlider';
 import Service from '../services/Services';
+import Pricing from '../../compounds/pricing/Pricing';
+import News from '../../compounds/news/MedicalNews';
+import Appoint from '../../compounds/appointment/Appointment';
 export default function Home() {
   return (
     <>
@@ -23,7 +26,7 @@ export default function Home() {
           <Count />
         </div>
         <div className="contain ">
-           <Contact/>
+          <Contact/>
         </div>
         <div className="contain">
           <About1/>
@@ -36,6 +39,15 @@ export default function Home() {
         </div>
         <div className="contain flex">
           <Service/>
+        </div>
+        <div className="contain flex">
+          <Pricing/>
+        </div>
+        <div className="contain ">
+          <News/>
+        </div>
+        <div className="contain ">
+          <Appoint/>
         </div>
        
       </div>
