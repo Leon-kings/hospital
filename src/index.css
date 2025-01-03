@@ -76,6 +76,15 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+@media (min-width: 640px) { 
+  .slider{
+    width: 100%;
+  }
+  Swiper{}
+ }
+
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
