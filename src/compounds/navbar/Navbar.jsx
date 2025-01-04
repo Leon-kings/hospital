@@ -61,6 +61,10 @@ export default function Navbar() {
           </button>
         </div>
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
+        <button className="button text-sm/6 font-semibold">HOME</button>
+          <button className="button text-sm/6 font-semibold">Features</button>
+          <button className="button text-sm/6 font-semibold">Features</button>
+          <button className="button text-sm/6 font-semibold">Features</button>
           <Popover className="relative">
             <PopoverButton className="flex items-center gap-x-1 text-sm/6 font-semibold text-gray-900">
             <button className='button'> Product</button>
@@ -105,11 +109,8 @@ export default function Navbar() {
               </div>
             </PopoverPanel>
           </Popover>
-          <button className="button text-sm/6 font-semibold">HOME</button>
-          <button className="button text-sm/6 font-semibold">Features</button>
-          <button className="button text-sm/6 font-semibold">Features</button>
-          <button className="button text-sm/6 font-semibold">Features</button>
-          <button className="button text-sm/6 font-semibold">Features</button>
+
+          
         </PopoverGroup>
         <div className="hidden lg:flex lg:flex-1 gap-4 lg:justify-end">
           

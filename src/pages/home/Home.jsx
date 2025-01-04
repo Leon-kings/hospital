@@ -2,7 +2,6 @@ import React from 'react'
 React;
 import Blog from "../../compounds/blog/BlogIcons";
 import Count from "../../compounds/count/Count";
-// import Card from '../../compounds/card/CardTimeTable';
 import Slider from "../../compounds/slidebar/SliderHead";
 import Contact from '../contact/Address';
 import About1 from '../about/About';
@@ -15,8 +14,8 @@ import Appoint from '../../compounds/appointment/Appointment';
 export default function Home() {
   return (
     <>
-      <div className="container justify-between items-center bg-white w-full xl:w-full lg:w-full sm:w-full">
-        <div className="contain w-full xl:w-full lg:w-full sm:w-fullw-full sm:w-full">
+      <div className="container  items-center bg-white w-full xl:w-full md:w-full lg:w-full sm:w-full">
+        <div className="contain">
           <Slider/>
         </div>
         <div className="contain">

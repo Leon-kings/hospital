@@ -21,33 +21,27 @@ const Slider = () => {
   const images = [
     {
       id: 1,
-      head: " Lamborghini",
-      inx: "Automobili Lamborghini S.p.A. is an Italian manufacturer of luxury sports cars .",
       url: "https://www.praktischarzt.de/wp-content/uploads/2023/03/Becoming-a-medical-doctor-or-physician-in-Germany.jpg",
     },
 
     {
       id: 2,
-      head: " Bugatti",
-      inx: "Automobiles Ettore Bugatti was a German then French manufacturer ",
       url: "https://cdn.prod.website-files.com/62d4f06f9c1357a606c3b7ef/65ddf3cdf19abaf5688af2f8_shutterstock_1933145801%20(1).jpg",
     },
     {
       id: 3,
-      head: " Volkswagen",
-      inx: "Volkswagen AG, known internationally as the Volkswagen Group, is a German .",
       url: "https://hips.hearstapps.com/hmg-prod/images/the-good-doctor-operating-room-1588791591.jpg",
     },
   ];
 
   return (
-    <section className="slider w-full object-cover">
+    <section className="w-full object-cover">
       <Swiper
         modules={[Autoplay, A11y]}
         spaceBetween={30} // Adjust the spacing as needed
         slidesPerView={1} // Show only one slide by default
         autoplay
-        className="w-full xl:w-[100%] mx-auto"
+        className="w-full xl:w-[100%] mx-auto lg:w-full md:w-full sm:w-full"
       >
         {images.map((img, index) => (
           <SwiperSlide key={index}>
@@ -56,12 +50,12 @@ const Slider = () => {
               <img
                 src={img.url}
                 alt={`slide-${index + 1}`}
-                className="w-full object-cover h-[300px] sm:h-[400px] lg:h-[500px] xl:h-[600px]  select-none"
+                className="w-full object-cover h-[300px] xl:w-full lg:w-full md:w-full sm:h-[400px] sm:w-[100%] lg:h-[500px] xl:h-[600px]  select-none"
               />
             </div>
 
             {/* Content Section */}
-            <div className="relative isolate px-4 sm:px-6 lg:px-8 w-full">
+            <div className="relative isolate  sm:px-6 w-full">
               <div className="py-20 sm:py-32 lg:py-40 xl:py-48">
                 <div className="my-10 text-center">
                   <h2 className=" text-sm sm:text-lg lg:text-xl xl:text-2xl font-medium text-pretty text-white">
