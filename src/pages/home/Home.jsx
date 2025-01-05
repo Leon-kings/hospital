@@ -14,7 +14,7 @@ import Appoint from '../../compounds/appointment/Appointment';
 export default function Home() {
   return (
     <>
-      <div className="container  items-center bg-white w-full xl:w-full md:w-full lg:w-full sm:w-full">
+      <div className="container items-center bg-white w-full xl:w-full md:w-full lg:w-full sm:w-full">
         <div className="contain">
           <Slider/>
         </div>

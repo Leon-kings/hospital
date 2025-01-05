@@ -55,7 +55,7 @@ const Slider = () => {
   ];
 
   return (
-    <section className="w-full object-cover">
+    <section className="w-full object-cover lg:w-full md:w-full sm:w-full">
       <Swiper
         modules={[Autoplay, A11y]}
         spaceBetween={30} // Adjust the spacing as needed
@@ -69,7 +69,7 @@ const Slider = () => {
             <div className="absolute w-full overflow-hidden blur-1xl">
               <img
                 src={img.url}
-                alt={`slide-${index + 1}`}
+                alt=''
                 className="w-full object-cover h-[300px] xl:w-full lg:w-full md:w-full sm:h-[400px] sm:w-[100%] lg:h-[500px] xl:h-[600px]  select-none"
               />
             </div>

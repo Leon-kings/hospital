@@ -31,13 +31,13 @@ export default function Head() {
             Health care, or healthcare, is the improvement of health via the prevention, diagnosis, treatment, amelioration or cure of disease, illness, injury, and other physical and mental impairments in people. Health care is delivered by health professionals and allied health fields.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
-              <a
-                href="#"
+              <button
+               
                 className="rounded-md button px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
-                Get started
-              </a>
-              <button href="#" className="button text-sm/6 font-semibold text-gray-900">
+                Contact
+              </button>
+              <button className="button text-sm/6 font-semibold text-gray-900">
                 Learn more <span aria-hidden="true">→</span>
               </button>
             </div>
