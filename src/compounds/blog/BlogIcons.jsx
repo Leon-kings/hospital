@@ -26,20 +26,20 @@ const Blog = () => {
             <BlogCard
              
               CardTitle="EMERGENCY"
-              CardDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-              image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZk2-88VC4Zh0ZNU3jFL2_0B8FaQs8kXkTc5GvwsqfrRQ_mtriwTeOS5ExYIUORTasuZ0&usqp=CAU"
+              CardDescription="The availability of efficient and reliable ambulance services is crucial for ensuring the safety and well-being of residents and tourists alike."
+              image="https://emahs.ae/wp-content/uploads/2024/08/emergency-ambulance.jpg"
             />
             <BlogCard
              
               CardTitle="PHARMACY"
-              CardDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-              image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3mZshXdfbdTXdqrwshENauZ8TUUXB8x1WUw&s"
+              CardDescription="The field of pharmacy is inextricably linked to the broader healthcare system, but it faces its unique set of challenges that shape its current state and its trajectory for the future."
+              image="https://img1.wsimg.com/isteam/ip/96f9481b-5f68-4e7a-99d1-1663b36826d6/2024-03-20_13-49-52_5182.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1280"
             />
             <BlogCard
             
               CardTitle="TREATMENT AND CONSULTATION"
-              CardDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-              image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoyzTsChZZVdMxRU4ZqLQIyvSwFgdUQ7xDAg&s"
+              CardDescription="Medical team performing operation. Group of surgeon at work in operating theatre toned in blue. Doctor operation in operation room at hospital concept for insurance advertising."
+              image="https://cdn.britannica.com/78/240878-138-E9CB8517/How-Does-Anesthesia-Work.jpg?w=800&h=450&c=crop"
             />
           </div>
         </div>

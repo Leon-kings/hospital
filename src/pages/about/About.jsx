@@ -5,20 +5,29 @@ const About1 = () => {
     <>
       <section className="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] bg-white dark:bg-dark">
         <div className="container mx-auto">
+          <div className="flex flex-wrap -mx-4">
+            <div className="w-full px-4">
+              <div className="mx-auto mb-[60px] max-w-[510px] text-center">
+                <h2 className="text-primary font-bold mb-2 block text-lg ">
+                  ABOUT US
+                </h2>
+              </div>
+            </div>
+          </div>
           <div className="flex flex-wrap items-center justify-between -mx-4">
             <div className="w-full px-4 lg:w-6/12">
               <div className="flex items-center -mx-3 sm:-mx-4">
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
                   <div className="py-3 sm:py-4">
                     <img
-                      src="https://i.ibb.co/gFb3ns6/image-1.jpg"
+                      src="https://www.shutterstock.com/image-photo/medical-team-performing-surgical-operation-600nw-741433855.jpg"
                       alt=""
                       className="w-full rounded-2xl"
                     />
                   </div>
                   <div className="py-3 sm:py-4">
                     <img
-                      src="https://i.ibb.co/rfHFq15/image-2.jpg"
+                      src="https://media.licdn.com/dms/image/D5612AQGWtpJ6yDl6RQ/article-cover_image-shrink_720_1280/0/1718297820328?e=2147483647&v=beta&t=-lLHGNUE4yCADTcVMDCU6QNkrRUBtUeQhCV0ps9NRfw"
                       alt=""
                       className="w-full rounded-2xl"
                     />
@@ -27,7 +36,12 @@ const About1 = () => {
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
                   <div className="relative z-10 my-4">
                     <img
-                      src="https://i.ibb.co/9y7nYCD/image-3.jpg"
+                      src="https://wp02-media.cdn.ihealthspot.com/wp-content/uploads/sites/456/2022/04/iStock-692381776.jpg"
+                      alt=""
+                      className="w-full rounded-2xl"
+                    />
+                    <img
+                      src="https://www.amnhealthcare.com/siteassets/amn-insights/physician/how-much-revenue-does-a-physician-generate-for-a-hospital-min.jpg"
                       alt=""
                       className="w-full rounded-2xl"
                     />
@@ -608,28 +622,25 @@ const About1 = () => {
 
             <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
               <div className="mt-10 lg:mt-0">
-                <span className="block mb-4 text-lg font-semibold text-primary">
-                  Why Choose Us
-                </span>
                 <h2 className="mb-5 text-3xl font-bold text-dark dark:text-white sm:text-[40px]/[48px]">
-                  Make your customers happy by giving services.
+                  Make Your Customers Happy By Giving Services.
                 </h2>
                 <p className="mb-5 text-base text-body-color dark:text-dark-6">
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                  The point of using Lorem Ipsum is that it has a more-or-less.
+                  Health care, or healthcare, is the improvement of health via
+                  the prevention, diagnosis, treatment, amelioration or cure of
+                  disease, illness, injury
                 </p>
                 <p className="mb-8 text-base text-body-color dark:text-dark-6">
-                  A domain name is one of the first steps to establishing your
-                  brand. Secure a consistent brand image with a domain name that
-                  matches your business.
+                HEALTH CARE is efforts made to maintain, restore, or promote someone&apos;s physical, mental, or emotional well-being especially.
                 </p>
-                <a
-                  href="javascript:void(0)"
-                  className="inline-flex items-center justify-center py-3 text-base font-medium text-center text-white border border-transparent rounded-md px-7 bg-primary hover:bg-opacity-90"
+                <button
+                  className="button inline-flex 
+                  items-center justify-center py-3 text-base 
+                  font-medium text-center  border border-transparent 
+                  rounded-md px-7 bg-primary hover:bg-opacity-90"
                 >
                   Get Started
-                </a>
+                </button>
               </div>
             </div>
           </div>

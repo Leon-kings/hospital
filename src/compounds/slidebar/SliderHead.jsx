@@ -21,7 +21,7 @@ const Slider = () => {
   const images = [
     {
       id: 1,
-      url: "https://www.praktischarzt.de/wp-content/uploads/2023/03/Becoming-a-medical-doctor-or-physician-in-Germany.jpg",
+      url: "https://crystalika.com/img/6363c97d/6420-medical-doctor-do-surgery-operation.webp",
     },
 
     {
@@ -31,6 +31,26 @@ const Slider = () => {
     {
       id: 3,
       url: "https://hips.hearstapps.com/hmg-prod/images/the-good-doctor-operating-room-1588791591.jpg",
+    },
+    {
+      id: 4,
+      url: "https://api.isoa.org/docs/blog/31/Copy%20of%20ISOA%20Blog%20Sizing%20(21).png",
+    },
+    {
+      id: 5,
+      url: "https://www.hopkinsmedicine.org/-/media/images/health/2_-treatment/pathology/thepathologisthero.jpg?h=500&iar=0&mh=500&mw=1300&w=1297&hash=A79298AB97CBCCD791C83D24C4E484BA",
+    },
+    {
+      id: 6,
+      url: "https://www.expatrio.com/hubfs/Expatrio%20Hatch%20Child%20-%20Theme_2024Migration/Blog%20Graphics/Working%20in%20Germany/working-germany-as-doctor.webp",
+    },
+    {
+      id: 7,
+      url: "https://investin.org/cdn/shop/articles/Doctor_Holding_Stethoscope_1200x1200.jpg?v=1645111758",
+    },
+    {
+      id: 8,
+      url: "https://img.freepik.com/premium-photo/two-female-physicians-are-discussing-medical-therapy-while-standing-table-clinic-office-doctors-use-pc-computer-work-teamwork-medicine_665183-15787.jpg",
     },
   ];
 

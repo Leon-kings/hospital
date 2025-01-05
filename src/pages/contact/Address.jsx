@@ -5,20 +5,26 @@ const Contact = () => {
     <>
       <section className="relative z-10 overflow-hidden bg-white py-20 dark:bg-dark lg:py-[120px]">
         <div className="container">
+          <div className="flex flex-wrap -mx-4">
+            <div className="w-full px-4">
+              <div className="mx-auto mb-[60px] max-w-[510px] text-center">
+                <h2 className="text-primary font-bold mb-2 block text-lg ">
+                  WE ARE ALWAYS READY TO HELP YOU . BOOK AN APPOINTMENT
+                </h2>
+
+                <p className="text-body-color text-base dark:text-dark-6">
+                  There are many variations of Services We provide.
+                </p>
+              </div>
+            </div>
+          </div>
           <div className="-mx-4 flex flex-wrap lg:justify-between">
             <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
-              <div className="mb-12 max-w-[570px] lg:mb-0">
-                <span className="mb-4 block text-base font-semibold text-primary">
-                  Contact Us
-                </span>
-                <h2 className="mb-6 text-[32px] font-bold uppercase text-dark dark:text-white sm:text-[40px] lg:text-[36px] xl:text-[40px]">
+              <div className="mb-12 w-full lg:mb-0">
+                <h2 className="mb-6 font-bold uppercase text-dark dark:text-white sm:text-[40px] lg:text-[36px] xl:text-[40px]">
                   GET IN TOUCH WITH US
                 </h2>
-                <p className="mb-9 text-base leading-relaxed text-body-color dark:text-dark-6">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eius tempor incididunt ut labore e dolore magna aliqua. Ut
-                  enim adiqua minim veniam quis nostrud exercitation ullamco
-                </p>
+
                 <div className="mb-8 flex w-full max-w-[370px]">
                   <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-primary/5 text-primary sm:h-[70px] sm:max-w-[70px]">
                     <svg
@@ -36,7 +42,7 @@ const Contact = () => {
                   </div>
                   <div className="w-full">
                     <h4 className="mb-1 text-xl font-bold text-dark dark:text-white">
-                      Our Location
+                      LOCATION
                     </h4>
                     <p className="text-base text-body-color dark:text-dark-6">
                       99 S.t Jomblo Park Pekanbaru 28292. Indonesia
@@ -76,10 +82,10 @@ const Contact = () => {
                   </div>
                   <div className="w-full">
                     <h4 className="mb-1 text-xl font-bold text-dark dark:text-white">
-                      Phone Number
+                      PHONE NUMBER
                     </h4>
                     <p className="text-base text-body-color dark:text-dark-6">
-                      (+250)78 794 4577
+                      (+250) 78 794 4577
                     </p>
                   </div>
                 </div>
@@ -101,7 +107,7 @@ const Contact = () => {
                   </div>
                   <div className="w-full">
                     <h4 className="mb-1 text-xl font-bold text-dark dark:text-white">
-                      Email Address
+                      MAIL
                     </h4>
                     <p className="text-base text-body-color dark:text-dark-6">
                       kingsleon250@gmail.com
