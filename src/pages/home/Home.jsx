@@ -11,12 +11,16 @@ import Service from '../services/Services';
 import Pricing from '../../compounds/pricing/Pricing';
 import News from '../../compounds/news/MedicalNews';
 import Appoint from '../../compounds/appointment/Appointment';
+import Card from '../../compounds/card/CardTimeTable';
 export default function Home() {
   return (
     <>
       <div className="container items-center p-4 bg-white w-full xl:w-full md:w-full lg:w-full sm:w-full">
         <div className="contain w-full xl:w-full md:w-full lg:w-full sm:w-full">
           <Slider/>
+        </div>
+        <div className="contain w-full xl:w-full md:w-full lg:w-full sm:w-full">
+          <Card />
         </div>
         <div className="contain w-full xl:w-full md:w-full lg:w-full sm:w-full">
           <Blog />
