@@ -1,5 +1,6 @@
 import { EnvelopeIcon, InboxStackIcon } from "@heroicons/react/16/solid";
 import React from "react";
+import logo from '../../assets/image/logo.png'
 React;
 const Footer = () => {
   return (
@@ -9,14 +10,14 @@ const Footer = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 sm:w-2/3 lg:w-3/12">
               <div className="mb-10 w-full">
-                <button className="mb-6 inline-block max-w-[160px]">
+                <button className="mb-6 bg-white inline-block max-w-[160px]">
                   <img
-                    src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo.svg"
+                    src={logo}
                     alt=""
                     className="max-w-full dark:hidden"
                   />
                   <img
-                    src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo-white.svg"
+                    src={logo}
                     alt=""
                     className="max-w-full hidden dark:block"
                   />
@@ -125,21 +126,21 @@ const Footer = () => {
             </LinkGroup>
             <LinkGroup header="MESSAGING">
             <EnvelopeIcon className="size-6"/>
-              <NavLink link="mailto://leonakingeneye2002@gmail.com" label="leonakingeneye2002@gmail.com" />
+              <NavLink link="mailto://kingsleon250@gmail.com" label="kingsleon250@gmail.com" />
             <InboxStackIcon className="size-6"/>
               <NavLink link="/#" label="+250 (78) 794 4 577" />
 
             </LinkGroup>
             <LinkGroup header="QUICK LINKS">
               <NavLink link="/" label="INDEX" />
-              <NavLink link="/Services" label="Our Services" />
+              <NavLink link="/Services" label="Services" />
               <NavLink link="/Contact" label="Contact" />
               
             </LinkGroup>
 
             <div className="w-full px-4 sm:w-1/2 lg:w-3/12">
               <div className="mb-10 w-full">
-                <h4 className="mb-9 text-lg font-semibold text-dark dark:text-white">
+                <h4 className="mb-9 text-lg font-semibold text-white dark:text-white">
                   FOLLOW US ON
                 </h4>
                 <div className="mb-6 flex items-center">

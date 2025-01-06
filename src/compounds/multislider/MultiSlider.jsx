@@ -29,13 +29,11 @@ const GridSlider = () => {
 
   return (
     <div className="relative overflow-hidden w-full sm:w-full md:w-full lg:w-full xl:w-full mx-auto">
-      <div
-        className="flex transition-transform duration-500"
-      >
+      <div className="flex transition-transform duration-500">
         {Array(totalSlides)
           .fill()
           .map((_, slideIndex) => (
-            <div key={slideIndex} className="grid grid-cols-3 gap-4 w-full p-4">
+            <div key={slideIndex} className="grid grid-cols-1 gap-4 w-full p-4">
               {images
                 .slice(
                   slideIndex * imagesPerSlide,

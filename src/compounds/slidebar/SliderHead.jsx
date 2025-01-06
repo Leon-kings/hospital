@@ -55,7 +55,7 @@ const Slider = () => {
   ];
 
   return (
-    <section className="w-full object-cover lg:w-full md:w-full sm:w-full">
+    <section className="w-full object-cover">
       <Swiper
         modules={[Autoplay, A11y]}
         spaceBetween={30} // Adjust the spacing as needed
