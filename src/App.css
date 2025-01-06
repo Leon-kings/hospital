@@ -1,5 +1,4 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;
   padding: 1rem;
   text-align: center;
@@ -41,11 +40,10 @@
 .read-the-docs {
   color: #888;
 }
-.back{
-  background-image: url('./assets/image/logo.png');
+.back {
+  background-image: url("./assets/image/logo.png");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 1rem;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-

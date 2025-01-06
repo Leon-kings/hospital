@@ -14,38 +14,38 @@ import Appoint from '../../compounds/appointment/Appointment';
 export default function Home() {
   return (
     <>
-      <div className="container items-center bg-white w-full xl:w-full md:w-full lg:w-full sm:w-full">
-        <div className="contain">
+      <div className="container items-center p-4 bg-white w-full xl:w-full md:w-full lg:w-full sm:w-full">
+        <div className="contain w-full xl:w-full md:w-full lg:w-full sm:w-full">
           <Slider/>
         </div>
-        <div className="contain">
+        <div className="contain w-full xl:w-full md:w-full lg:w-full sm:w-full">
           <Blog />
         </div>
-        <div className="contain">
+        <div className="contain w-full xl:w-full md:w-full lg:w-full sm:w-full">
           <Count />
         </div>
-        <div className="contain ">
+        <div className="contain w-full xl:w-full md:w-full lg:w-full sm:w-full ">
           <Contact/>
         </div>
-        <div className="contain">
+        <div className="contain w-full xl:w-full md:w-full lg:w-full sm:w-full">
           <About1/>
         </div>
-        <div className="contain ">
+        <div className="contain w-full xl:w-full md:w-full lg:w-full sm:w-full ">
           <Head/>
         </div>
-        <div className="contain flex">
+        <div className="contain w-full xl:w-full md:w-full lg:w-full sm:w-full">
           <Carousel/>
         </div>
-        <div className="contain flex">
+        <div className="contain w-full xl:w-full md:w-full lg:w-full sm:w-full">
           <Service/>
         </div>
-        <div className="contain flex">
+        <div className="contain w-full xl:w-full md:w-full lg:w-full sm:w-full">
           <Pricing/>
         </div>
-        <div className="contain ">
+        <div className="contain w-full xl:w-full md:w-full lg:w-full sm:w-full ">
           <News/>
         </div>
-        <div className="contain ">
+        <div className="contain w-full xl:w-full md:w-full lg:w-full sm:w-full ">
           <Appoint/>
         </div>
        
